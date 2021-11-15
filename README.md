@@ -30,7 +30,6 @@ We learned a lot about using javascript for extensions, as well as developed our
 We hope to make the carbon calculation more accurate with a larger dataset (rather than using the average with some larger anomalies)
 
 # Built With
-  chrome
-  css
-  html
+ chrome , css , 
+  html , 
   javascript
