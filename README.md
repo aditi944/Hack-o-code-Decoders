@@ -2,4 +2,4 @@
 
 # Team members-
 1. Aditi @aditi944
-2. Pearl khatri @pearlkhatri
+2.  Pearl Khatri @pearlkhatri
