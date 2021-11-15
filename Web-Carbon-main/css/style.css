@@ -1,0 +1,87 @@
+body{
+	font-family: 'Arial',sans-serif;
+	width: 300px;
+	background-color: #333333;
+}
+
+#today {
+	display: -webkit-box;
+}
+#today div {
+	height: 35px;
+	padding: 12px 0 0 0;
+	color: #0fbea7;
+	font-size: 20px;
+	font-weight: bold;
+}
+#today div #today-count {
+	-webkit-box-flex: 1;
+}
+
+#chart {
+	width: 300px;
+	border-left: solid 1px #CCFFCC;
+	border-bottom: solid 1px #CCFFCC;
+	padding-bottom: none;
+	margin-bottom: none;
+	position: relative;
+}
+#chart-default {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #969696;
+	top: 50%;
+  transform: translateY(-50%);
+	z-index: 100;
+}
+.chart-default-hidden {
+	display: none;
+}
+.chart-column {
+	width: 10px;
+	float: left;
+}
+.chart-area {
+	position: relative;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-left: solid 1px #404040;
+}
+.chart-bar-wrap {
+	width: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.chart-bar {
+	width: 6px;
+	position: absolute;
+	bottom: 0;
+	left: 4px;
+	background-color: #0c6cc7;
+
+}
+.chart-bar.today {
+	background-color: #0fbea7;
+}
+
+
+#forecast {
+	color: #FFFFE0;
+}
+#forecast-title{
+	height: 35px;
+	padding: 12px 0 0 0;
+
+	color: #FFFFE0;
+	font-size: 16px;
+	font-weight: bold;
+}
+#forecast-count {
+	color: #FFFFE0;
+}
+#forecast-equivalent {
+	color: #FFFFE0;
+	font-size: 14px;
+}

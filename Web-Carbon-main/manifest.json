@@ -1,0 +1,23 @@
+{
+  "name": "WebCarbon",
+  "description": "Track your carbon emissions resulting from browsing the internet!",
+  "version": "0.1.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [ "js/background.js" ]
+  },
+  "browser_action": {
+    "default_icon": "img/icon-16x16.png",
+    "default_popup": "popup.html",
+    "default_title": "Carbon Meter"
+  },
+  "icons": {
+    "16": "img/icon-16x16.png",
+    "48": "img/icon-48x48.png",
+    "128": "img/icon-128x128.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["js/contentscript.js"]
+  }]
+}
